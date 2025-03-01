@@ -1,0 +1,54 @@
+.carousel-item img {
+    max-height: 400px;
+    /* Establecer el tamaño máximo de la altura de la imagen */
+    max-width: 100%;
+    /* Establecer el tamaño máximo del ancho de la imagen */
+    width: auto;
+    /* Ajustar el ancho automáticamente */
+    margin: auto;
+    /* Centrar la imagen horizontalmente */
+    display: block;
+    /* Hacer que la imagen sea un bloque para aplicar los márgenes */
+    object-fit: cover;
+    /* Escalar la imagen para cubrir el contenedor */
+}
+
+#profile {
+    text-align: center;
+    /* Espacio superior para centrar verticalmente */
+}
+
+.circular-img {
+    width: 200px;
+    /* Tamaño de la imagen */
+    height: 200px;
+    /* Tamaño de la imagen */
+    margin: 0 auto;
+    /* Centrar horizontalmente */
+}
+
+.circular-img img {
+    width: 100%;
+    /* Ajustar la imagen al contenedor */
+    height: 100%;
+    /* Ajustar la imagen al contenedor */
+    border-radius: 50%;
+    /* Hacer la imagen circular */
+}
+
+.titulo {
+    font-size: 36px;
+    /* Tamaño del título */
+}
+
+.contenido {
+    margin: 15px;
+    font-size: 22px;
+    font-style: italic;
+    /* Tamaño del contenido */
+}
+
+.custom-text {
+    margin: 20px 0 0 0;
+    font-size: 18px;
+  }
