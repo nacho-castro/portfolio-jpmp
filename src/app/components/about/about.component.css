@@ -1,6 +1,24 @@
-#profile {
-    height: auto;
-    object-fit: cover; 
-    width: 50%; 
+.profile {
+    float: left;
+    margin-right: 15px;
+    max-width: 180px;
+}
+
+.papa{
+    float: left;
+    margin-right: 15px;
+    max-width: 150px;
+}
+
+.mama{
+    float: right;
+    margin-left: 15px;
+    max-width: 150px;
+}
+
+.damian{
+    float: left;
+    margin-right: 15px;
+    max-width: 300px;
 }
 

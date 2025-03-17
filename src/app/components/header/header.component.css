@@ -1,5 +1,5 @@
 img {
-    height: 70px;
+    height: 50px;
 }
 
 h2{
@@ -9,18 +9,18 @@ h2{
 header {
     width: 100%;
     top: 0;
-    z-index: 1000; /* Adjust z-index as needed */
+    z-index: 1000;
   }
   
 /* Cambiar tamaño de fuente y quitar subrayado para los enlaces */
 header a {
-    font-size: 1.2rem; /* Cambia el tamaño de fuente según tu preferencia */
+    font-size: 1.2rem;
     text-decoration: none; /* Quitar el subrayado */
 }
 
 /* Cambiar tamaño de fuente para el texto principal */
 header .font-weight-normal {
-    font-size: 1.5rem; /* Cambia el tamaño de fuente según tu preferencia */
+    font-size: 1.5rem;
 }
 
 @media (max-width: 768px) {

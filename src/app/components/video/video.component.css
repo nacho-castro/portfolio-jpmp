@@ -1,0 +1,18 @@
+.custom-text {
+    max-width: 300px;
+    margin-left: -30px;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .custom-text {
+        margin-left: 0;
+        /* Evita solapamiento en pantallas pequeñas */
+        max-width: 100%;
+        /* Permite que el texto ocupe el ancho disponible */
+        text-align: center;
+        /* Centra el texto en móviles */
+        margin-top: 15px;
+        /* Agrega espacio superior cuando el texto cae debajo del video */
+    }
+}
