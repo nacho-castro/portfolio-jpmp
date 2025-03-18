@@ -1,71 +1,26 @@
 <div class="container mt-5">
-    <p class="lead">Del 2012 al 2013 la Muestra G.I.R, fue expuesta en ROMA, Museo de San Fernando, Casa de la Memoria
-        de Pilar, Casa de San Ginés. Con visitas de Escuelas, docentes, jóvenes y adultos. Y también Conferencia en la
-        Universidad de Limoges, Francia.
-        La Muestra “SUMERGIDOS” es una serie de fotografías realizadas en el río de San Fernando, con reflejos y
-        composiciones abstractas que sumé luego a la muestra G.I.R.
-        La Obra “JUGUETES” perteneciente a la Muestra G.I.R, es la Instalación que representa el momento en el que
-        desapareció mi madre, estando con ella en Lanús. Está realizada con muñecas y muebles de juguete que fueron de
-        mis hijos. Con los mismos elementos realicé un ploteo, video y material audiovisual. Esta Muestra fue expuesta
-        en la Biblioteca Nacional de Bs As. luego de la Pandemia de septiembre del 2021 a Marzo 2022.
-    </p>
-    <p>En 2012 comencé con la muestra G.I.R: Geografías Interiores Reconstrucción,
+    <p class="lead">En 2012 comencé con la muestra <b><i>G.I.R: Geografías Interiores Reconstrucción</i></b>,
         en la que expuse obras, archivos, fotografías, textos, relatos, cartas y
         documentos que fui recopilando a lo largo de mis años de búsqueda de mi
         identidad. La muestra fue pasando desde mi nombre adoptivo, Carolina Sala, hasta que,
         dibujando un retrato en el que estaba la mano de mi madre y la mía de bebita,
         me encontré con mi verdadera identidad firmando como Jorgelina Paula
         Molina Planas por primera vez.</p>
+    <p class="lead">La Muestra G.I.R, fue expuesta en Roma, Museo de San Fernando, Casa de la Memoria
+        de Pilar, Casa de San Ginés. Con visitas de Escuelas, docentes, jóvenes y adultos. Y también Conferencia en la
+        Universidad de Limoges, Francia.
+    </p>
 </div>
 
-<div class="container mt-5">
-    <div class="row">
+<div class="container mt-5" *ngFor="let muestra of muestras">
+    <div class="row" >
         <div class="col-md-4">
             <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-                src="../../../assets/images/muestras/roma.JPG" />
+                [src]="muestra.img" />
         </div>
         <div class="col-md-8">
-            <p><strong>Muestra G.I.R. Roma</strong></p>
-            <p class="lead">Expuesta en 2012</p>
-        </div>
-    </div>
-</div>
-
-<div class="container mt-5">
-    <div class="row">
-        <div class="col-md-4">
-            <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-                src="../../../assets/images/muestras/sanfer.jpg" />
-        </div>
-        <div class="col-md-8">
-            <p><strong>Muestra G.I.R. Palacio Otamendi</strong></p>
-            <p class="lead">Expuesta en 2025</p>
-        </div>
-    </div>
-</div>
-
-<div class="container mt-5">
-    <div class="row">
-        <div class="col-md-4">
-            <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-                src="../../../assets/images/muestras/pilar.jpg" />
-        </div>
-        <div class="col-md-8">
-            <p><strong>Muestra G.I.R. Casa de la Memoria Pilar</strong></p>
-            <p class="lead">Expuesta en 2025</p>
-        </div>
-    </div>
-</div>
-
-<div class="container mt-5">
-    <div class="row">
-        <div class="col-md-4">
-            <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-                src="../../../assets/images/muestras/juguetes.jpg" />
-        </div>
-        <div class="col-md-8">
-            <p><strong>Muestra G.I.R. Casa de la Memoria Pilar</strong></p>
-            <p class="lead">Expuesta en 2025</p>
+            <p><strong>{{ muestra.title }}</strong></p>
+            <p>{{ muestra.desc }}</p>
         </div>
     </div>
 </div>

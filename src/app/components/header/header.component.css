@@ -1,36 +1,32 @@
 img {
-    height: 50px;
-}
-
-h2{
-  color: white;
+  height: 60px;
 }
 
 header {
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-  }
-  
-/* Cambiar tamaño de fuente y quitar subrayado para los enlaces */
-header a {
-    font-size: 1.2rem;
-    text-decoration: none; /* Quitar el subrayado */
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
 }
 
-/* Cambiar tamaño de fuente para el texto principal */
+
+header a {
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
 header .font-weight-normal {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 @media (max-width: 768px) {
-    .logo-toggler-container {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .logo-toggler-container .navbar-toggler {
-      margin-left: 0;
-    }
+  .logo-toggler-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
+
+  .logo-toggler-container .navbar-toggler {
+    margin-left: 0;
+  }
+}

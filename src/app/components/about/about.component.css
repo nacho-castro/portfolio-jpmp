@@ -4,21 +4,32 @@
     max-width: 180px;
 }
 
-.papa{
-    float: left;
-    margin-right: 15px;
+.padres{
+    display: flex; gap: 20px; align-items: flex-start;
+}
+
+.papa {
     max-width: 150px;
 }
 
-.mama{
+.mama {
+    max-width: 135px;
+}
+
+.damian {
+    float: left;
+    margin: 15px;
+    max-width: 300px;
+}
+
+.carta {
+    float: right;
+    margin-left: 15px;
+    max-width: 220px;
+}
+
+.abuela {
     float: right;
     margin-left: 15px;
     max-width: 150px;
 }
-
-.damian{
-    float: left;
-    margin-right: 15px;
-    max-width: 300px;
-}
-

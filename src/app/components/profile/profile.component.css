@@ -1,45 +1,46 @@
 #profile {
     text-align: center;
-    /* Espacio superior para centrar verticalmente */
 }
 
-.circular-img {
+.profile-img {
     width: 200px;
-    /* Tamaño de la imagen */
     height: 200px;
-    /* Tamaño de la imagen */
     margin: 0 auto;
-    /* Centrar horizontalmente */
 }
 
-.circular-img img {
+.profile-img img {
     width: 100%;
-    /* Ajustar la imagen al contenedor */
     height: 100%;
-    /* Ajustar la imagen al contenedor */
     border-radius: 50%;
-    /* Hacer la imagen circular */
-}
-
-.titulo {
-    font-size: 36px;
-    /* Tamaño del título */
 }
 
 .contenido {
     margin: 15px;
     font-size: 22px;
     font-style: italic;
-    /* Tamaño del contenido */
 }
 
-.custom-text {
-    margin: 20px 0 0 0;
-    font-size: 18px;
+.rounded-circle {
+    width: 120px;
+    height: 120px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.link-text{
-    max-width: 300px; 
+.bd-placeholder-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
+.link-text {
+    max-width: 300px;
+}
 
+.bd-placeholder-img:hover img {
+    transform: scale(0.8);
+    transition: transform 0.3s ease-in-out;
+}
