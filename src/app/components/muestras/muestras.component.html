@@ -6,22 +6,30 @@
         dibujando un retrato en el que estaba la mano de mi madre y la mía de bebita,
         me encontré con mi verdadera identidad firmando como Jorgelina Paula
         Molina Planas por primera vez.</p>
-    <p class="lead">La Muestra G.I.R, fue expuesta en Roma, Museo de San Fernando, Casa de la Memoria
-        de Pilar, Casa de San Ginés. Con visitas de Escuelas, docentes, jóvenes y adultos. Y también Conferencia en la
+    <p class="lead">La Muestra G.I.R fue expuesta en Casa della Memoria (Roma), Museo de San Fernando, Casa de la Memoria
+        de Pilar, Casa de San Ginés, Biblioteca Nacional de Bs. As. y el Palacio Otamendi. Con visitas de escuelas, docentes, jóvenes y adultos, además de una Conferencia en la
         Universidad de Limoges, Francia.
     </p>
 </div>
 
 <div class="container mt-5" *ngFor="let muestra of muestras">
-    <div class="row" >
-        <div class="col-md-4">
-            <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-                [src]="muestra.img" />
+    <div class="container">
+        <!--TITULO Y DESCRIPCION-->
+        <div class="mb-5">
+            <h2 class="mb-2"><strong>{{ muestra.title }}</strong></h2>
+            <p class="desc lead">{{ muestra.desc }}</p>
         </div>
-        <div class="col-md-8">
-            <p><strong>{{ muestra.title }}</strong></p>
-            <p>{{ muestra.desc }}</p>
-        </div>
+        <!--IMAGENES-->
+        <div class="row text-center">
+            <div class="col-md-4 mb-2">
+                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" [src]="muestra.img1" />
+            </div>
+            <div class="col-md-4 mb-2">
+                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" [src]="muestra.img2" />
+            </div>
+            <div class="col-md-4 mb-2">
+                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" [src]="muestra.img3" />
+            </div>
+        </div>        
     </div>
 </div>
-

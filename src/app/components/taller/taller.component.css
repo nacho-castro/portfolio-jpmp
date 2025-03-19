@@ -1,0 +1,12 @@
+p {
+ text-align: justify;
+}
+
+.archivo {
+    margin: 8px auto; /* Centra el contenedor horizontalmente */
+    display: flex; 
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente si tiene altura definida */
+    text-align: center; /* Centra el texto dentro */
+    max-width: 300px;
+}

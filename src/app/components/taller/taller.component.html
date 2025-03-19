@@ -10,36 +10,39 @@
     elementos necesarios para que cada uno elija su propio camino.</p>
 </div>
 
-<div class="container mt-5">
-  <div class="row">
-    <div class="col-md-4">
-      <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-        src="../../../assets/images/taller/taller.png" alt="Taller" />
-    </div>
-    <div class="col-md-8">
-      <p class="lead"><strong>Taller niños:</strong></p>
-      <ul class="lead">
-        <li><strong>Online o Presencial</strong></li>
-        <li><strong>Días disponibles</strong></li>
-        <li><strong>Materiales incluidos</strong></li>
-      </ul>
-    </div>
-  </div>
+<img class="archivo col" src="../../../assets/images/taller/pintar.jpg" alt="Imagen con Damian">
+
+<div class="container mt-4">
+  <h3 class="text-center">CLASES PERSONALIZADAS</h3>
+  <h4 class="mb-3 text-center"><i>Niños, Jóvenes y Adultos</i></h4>
+
+  <p class="lead">Las clases son
+    personalizadas e individuales para ir desarrollando tus propias búsquedas e intereses y así puedas encontar tu
+    propio estilo. En caso de que haya varios alumnos, será acordado por edad, días y horarios en común. Comenzamos con
+    técnicas de dibujo, línea, forma, composición; para luego continuar con paleta de color
+    y círculo cromático. Todo esto inspirándonos en diferentes artistas de la historia del arte, y utilizando diferentes
+    técnicas y materiales que iremos explorando juntos en cada clase.
+  </p>
+
+  <ul class="lead">
+    <li><strong>Online o Presencial</strong></li>
+    <li><strong>Las clases se dictan en mi taller ubicado en San Fernando, Buenos Aires. </strong></li>
+    <li><strong>Clases individuales (en caso de coincidir edad, días y horarios, podrán ser grupales).</strong></li>
+  </ul>
 </div>
 
-<div class="container mt-5">
+<div class="container mt-3" *ngFor="let taller of talleres">
   <div class="row">
+
     <div class="col-md-4">
-      <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-        src="../../../assets/images/tallerarte.jpg" alt="Taller" />
+      <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" [src]="taller.img"
+        alt="Taller" />
     </div>
+
     <div class="col-md-8">
-      <p class="lead"><strong>Taller adultos:</strong></p>
-      <ul class="lead">
-        <li><strong>Online o Presencial</strong></li>
-        <li><strong>Días disponibles</strong></li>
-        <li><strong>Materiales incluidos</strong></li>
-      </ul>
+      <h3 class="lead mt-2"><strong>Taller {{taller.edad}}:</strong></h3>
+      <p class="">{{taller.desc}}</p>
     </div>
+
   </div>
 </div>

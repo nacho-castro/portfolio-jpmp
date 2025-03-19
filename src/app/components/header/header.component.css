@@ -9,7 +9,6 @@ header {
   background-color: white;
 }
 
-
 header a {
   font-size: 1.2rem;
   text-decoration: none;
@@ -19,11 +18,12 @@ header .font-weight-normal {
   font-size: 1.5rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 765px) {
   .logo-toggler-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: clamp(20px, 10vw, 100px);
   }
 
   .logo-toggler-container .navbar-toggler {
