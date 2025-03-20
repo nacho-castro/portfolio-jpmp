@@ -1,27 +1,31 @@
-# PortfolioJPMP
+# Artist's Portfolio JPMP
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
+## Introduction
 
-## Development server
+This website showcases the artistic work, exhibitions, and classes offered by JPMP. It serves as a digital portfolio for exploring their creations and biography.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+[Visit Website](https://jpmp-arte.web.app/)
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Technologies Used
 
-## Build
+- **Angular**: Framework for building the frontend.
+- **Bootstrap**: For responsive and modern design.
+- **JSON**: Content is dynamically loaded from a local JSON file.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+---
 
-## Running unit tests
+## Project Description
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+This portfolio is a Single Page Application (SPA) developed in Angular. The content is managed dynamically using a local JSON file, allowing updates without modifying the application code.
 
-## Running end-to-end tests
+### Key Sections
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- **Home**: Introduction to the artist and their work.
+- **About**: Biography and artistic journey.
+- **Works**: Collection of artworks.
+- **Exhibitions**: Gallery of past and current installations.
+- **Classes**: Details about art classes and workshops.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+---

@@ -30,3 +30,12 @@ header .font-weight-normal {
     margin-left: 0;
   }
 }
+
+.navbar-toggler {
+  padding: 12px 16px; /* Aumenta el tamaño del botón */
+  font-size: 1.2rem; /* Hace más grande el ícono */
+}
+
+.navbar-toggler-icon i {
+  font-size: 1.5rem; /* Aumenta el tamaño del ícono del menú */
+}
