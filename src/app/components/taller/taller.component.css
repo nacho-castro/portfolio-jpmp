@@ -10,3 +10,8 @@ p {
     text-align: center; /* Centra el texto dentro */
     max-width: 300px;
 }
+
+ul.lead {
+    list-style-position: inside;
+    margin-bottom: 30px;
+}

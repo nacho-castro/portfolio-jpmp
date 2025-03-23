@@ -4,7 +4,7 @@
 
 This website showcases the artistic work, exhibitions, and classes offered by JPMP. It serves as a digital portfolio for exploring their creations and biography.
 
-[Visit Website](https://jpmp-arte.web.app/)
+[Visit Website](https://jorgelinapmp.com.ar/)
 
 ---
 

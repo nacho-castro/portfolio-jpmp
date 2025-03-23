@@ -4,6 +4,12 @@
     gap: 10px;
 }
 
+@media (max-width: 765px) {
+    .title{
+        margin-left: 12px;
+    }    
+}
+
 .profile {
     margin: 15px;
     max-width: 180px;
@@ -53,7 +59,7 @@ figcaption {
     float: left;
     margin-right: 15px;
     margin-bottom: 15px;
-    max-width: 140px;
+    max-width: 120px;
 }
 
 .archivo {
@@ -63,4 +69,10 @@ figcaption {
     align-items: center; /* Centra verticalmente si tiene altura definida */
     text-align: center; /* Centra el texto dentro */
     max-width: 300px;
+}
+
+.redes{
+    color:white;
+    background-color: black;
+    border-color: black;
 }
